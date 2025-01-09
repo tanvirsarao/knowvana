@@ -1,10 +1,10 @@
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 
-process.on('uncaughtException', (err) => {
-  console.log(err.name, err.message);
-  console.log('Uncaught Rejection... Shutting down...');
-});
+// process.on('uncaughtException', (err) => {
+//   console.log(err.name, err.message);
+//   console.log('Uncaught Rejection... Shutting down...');
+// });
 
 dotenv.config({
   path: './config.env',
